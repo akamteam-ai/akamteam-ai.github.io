@@ -165,9 +165,6 @@ Zhaleh's portfolio as they stood in September 2026. Worth confirming with the te
 - **Team photo.** `team.jpg` in the React repository was not used: it shows three
   people and looks AI-generated. A real photo of the team would be better on the
   About section than a generated one.
-- **Shahla's photo.** Her card shows initials for now. Save a square photo (at
-  least 256 × 256) as `assets/img/shahla.jpg` and set `avatar` on her entry in
-  `data/site.js`.
 - **Kaggle counts** add up each member's accounts. Two datasets appear on both
   Zhaleh's and Shahla's profiles, which is why the hero says "40+" rather than an
   exact team total.

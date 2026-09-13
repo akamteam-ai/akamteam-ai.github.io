@@ -62,7 +62,7 @@ Model Deployment
 ### English
 
 ```
-Akam (Noavaran Hooshmand Akam) is an AI services company building identity-verification (KYC) systems that stay fast on modest hardware.
+Akam Intelligent Innovators is an AI services company building identity-verification (KYC) systems that stay fast on modest hardware.
 
 Our KYC suite is built module by module — document OCR, face matching, liveness detection, anti-spoofing, face-quality checks, image forensics and voice identification. Every module returns the same thing: a decision, a score, and the reasons behind it. They run on their own or together as one verification flow, so an operator can always see why an applicant was accepted or flagged.
 

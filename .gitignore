@@ -1,4 +1,7 @@
 .claude/
+
+# Source photo; the site uses the cropped assets/img/shahla-avatar.jpg
+assets/img/shahla.jpg
 __pycache__/
 *.pyc
 .DS_Store

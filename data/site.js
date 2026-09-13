@@ -130,7 +130,7 @@ window.SITE = {
   company: {
     name:    { en: "Akam", fa: "آکام" },
     /*  Registered name — shown in the About section and the footer.  */
-    legalName: { en: "Noavaran Hooshmand Akam", fa: "نوآوران هوشمند آکام" },
+    legalName: { en: "Akam Intelligent Innovators", fa: "نوآوران هوشمند آکام" },
     wordmark: "assets/img/akam-wordmark.jpg",
     emblem:   "assets/img/akam-emblem.jpg",
     tagline: { en: "Practical AI solutions — from data to deployment.",
@@ -154,7 +154,7 @@ window.SITE = {
                   fa: "تیمی کوچک با تمرکزی مشخص" },
     about: [
       {
-        en: "Akam — registered as Noavaran Hooshmand Akam, a limited liability company — is an AI services company. Our main product is a KYC suite: the checks that sit between a person uploading an ID card and a selfie and an operator deciding to let them in.",
+        en: "Akam Intelligent Innovators is an AI services company, registered as a limited liability company. Our main product is a KYC suite: the checks that sit between a person uploading an ID card and a selfie and an operator deciding to let them in.",
         fa: "آکام با نام ثبتی «نوآوران هوشمند آکام» یک شرکت خدمات هوش مصنوعی با مسئولیت محدود است. محصول اصلی ما یک سامانه‌ی احراز هویت (KYC) است: همه‌ی بررسی‌هایی که از لحظه‌ی بارگذاری کارت ملی و سلفی تا تصمیم اپراتور برای پذیرش کاربر انجام می‌شود."
       },
       {
@@ -267,8 +267,8 @@ window.SITE = {
         en: "Builds the backend services behind the suite's face checks — detection, embeddings and matching behind FastAPI — and the data that trains them. Publishes much of the team's MRI, OCR and face data on Kaggle.",
         fa: "سرویس‌های بک‌اند پشت بررسی‌های چهره‌ی سامانه را می‌سازد — تشخیص چهره، استخراج بردار و تطبیق روی FastAPI — و داده‌هایی که مدل‌ها با آن آموزش می‌بینند. بخش بزرگی از داده‌های ام‌آرآی، OCR و چهره‌ی تیم را روی کگل منتشر کرده است."
       },
-      /*  No photo yet — save one as assets/img/shahla.jpg and set it here.  */
-      avatar: "",
+      /*  Cropped to the face from assets/img/shahla.jpg.  */
+      avatar: "assets/img/shahla-avatar.jpg",
       links: {
         github:   "https://github.com/shahla2022",
         kaggle:   "https://www.kaggle.com/sshahla",
