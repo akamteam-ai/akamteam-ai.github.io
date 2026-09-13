@@ -62,7 +62,7 @@ Model Deployment
 ### English
 
 ```
-Akam is an AI services company building identity-verification (KYC) systems that stay fast on modest hardware.
+Akam (Noavaran Hooshmand Akam) is an AI services company building identity-verification (KYC) systems that stay fast on modest hardware.
 
 Our KYC suite is built module by module — document OCR, face matching, liveness detection, anti-spoofing, face-quality checks, image forensics and voice identification. Every module returns the same thing: a decision, a score, and the reasons behind it. They run on their own or together as one verification flow, so an operator can always see why an applicant was accepted or flagged.
 
@@ -70,7 +70,7 @@ How we build: models are trained on GPUs and served on CPUs, packaged to run whe
 
 Beyond KYC, the team works on applied machine learning in medical imaging (brain MRI, dental radiographs), speaker identification, and LLM assistants that answer from your documents and data with every claim traceable.
 
-We first competed together as Akam at the ICCKE 2022 challenge and became a company in 2026.
+We first competed together as Akam at the ICCKE 2022 challenge, taking third place, and became a company in 2026.
 
 Team: Zhaleh Manbari · Shahla Gharibi · Mohammad Jafari
 
@@ -80,7 +80,7 @@ Contact: akamteam.ai@gmail.com
 ### فارسی
 
 ```
-آکام یک شرکت خدمات هوش مصنوعی است که سامانه‌های احراز هویت (KYC) می‌سازد؛ سامانه‌هایی که روی سخت‌افزار معمولی هم سریع می‌مانند.
+آکام (نوآوران هوشمند آکام) یک شرکت خدمات هوش مصنوعی است که سامانه‌های احراز هویت (KYC) می‌سازد؛ سامانه‌هایی که روی سخت‌افزار معمولی هم سریع می‌مانند.
 
 سامانه‌ی احراز هویت ما ماژول به ماژول ساخته شده است: OCR مدارک، تطبیق چهره، تشخیص زنده‌بودن، ضد جعل، سنجش کیفیت چهره، جرم‌شناسی تصویر و شناسایی صدا. خروجی همه‌ی ماژول‌ها یکسان است: تصمیم، امتیاز، و دلیل‌های آن. ماژول‌ها هم مستقل و هم در قالب یک فرایند یکپارچه کار می‌کنند، تا اپراتور همیشه ببیند چرا یک متقاضی پذیرفته یا علامت‌گذاری شده است.
 
@@ -88,7 +88,7 @@ Contact: akamteam.ai@gmail.com
 
 فراتر از احراز هویت، تیم روی یادگیری ماشین کاربردی در تصویربرداری پزشکی (ام‌آرآی مغز و رادیوگرافی دندان)، شناسایی گوینده، و دستیارهای مبتنی بر LLM کار می‌کند که از روی اسناد و داده‌های شما پاسخ می‌دهند و هر ادعایشان قابل ردیابی است.
 
-نخستین بار در چالش ICCKE 2022 با نام آکام کنار هم رقابت کردیم و در سال ۲۰۲۶ به یک شرکت تبدیل شدیم.
+نخستین بار در چالش ICCKE 2022 با نام آکام کنار هم رقابت کردیم و رتبه‌ی سوم را به دست آوردیم، و در سال ۲۰۲۶ به یک شرکت تبدیل شدیم.
 
 اعضا: ژاله منبری · شهلا غریبی · محمد جعفری
 
@@ -104,7 +104,7 @@ Akam is on LinkedIn. 👋
 
 We're a small AI company building identity verification that runs fast on ordinary hardware: document OCR, face matching, liveness, anti-spoofing — each check returning a decision, a score, and the reasons behind it.
 
-Our first team entry was the ICCKE 2022 challenge. In 2026 Akam became a company.
+We first competed together at the ICCKE 2022 challenge, where we took third place. In 2026 Akam became a company.
 
 Follow the page for what we're building, and see our projects at https://akamteam-ai.github.io/.
 

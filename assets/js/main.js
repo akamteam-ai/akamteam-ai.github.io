@@ -177,7 +177,7 @@
     node.textContent = "";
     stats.forEach(function (s) {
       var d = el("div");
-      d.appendChild(el("dt", null, s.value));
+      d.appendChild(el("dt", null, t(s.value)));
       d.appendChild(el("dd", null, t(s.label)));
       node.appendChild(d);
     });

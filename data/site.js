@@ -129,6 +129,8 @@ window.SITE = {
 
   company: {
     name:    { en: "Akam", fa: "آکام" },
+    /*  Registered name — shown in the About section and the footer.  */
+    legalName: { en: "Noavaran Hooshmand Akam", fa: "نوآوران هوشمند آکام" },
     wordmark: "assets/img/akam-wordmark.jpg",
     emblem:   "assets/img/akam-emblem.jpg",
     tagline: { en: "Practical AI solutions — from data to deployment.",
@@ -152,12 +154,12 @@ window.SITE = {
                   fa: "تیمی کوچک با تمرکزی مشخص" },
     about: [
       {
-        en: "Akam is an AI services company, registered as a limited liability company. Our main product is a KYC suite: the checks that sit between a person uploading an ID card and a selfie and an operator deciding to let them in.",
-        fa: "آکام یک شرکت خدمات هوش مصنوعی است که به‌صورت شرکت با مسئولیت محدود ثبت شده. محصول اصلی ما یک سامانه‌ی احراز هویت (KYC) است: همه‌ی بررسی‌هایی که از لحظه‌ی بارگذاری کارت ملی و سلفی تا تصمیم اپراتور برای پذیرش کاربر انجام می‌شود."
+        en: "Akam — registered as Noavaran Hooshmand Akam, a limited liability company — is an AI services company. Our main product is a KYC suite: the checks that sit between a person uploading an ID card and a selfie and an operator deciding to let them in.",
+        fa: "آکام با نام ثبتی «نوآوران هوشمند آکام» یک شرکت خدمات هوش مصنوعی با مسئولیت محدود است. محصول اصلی ما یک سامانه‌ی احراز هویت (KYC) است: همه‌ی بررسی‌هایی که از لحظه‌ی بارگذاری کارت ملی و سلفی تا تصمیم اپراتور برای پذیرش کاربر انجام می‌شود."
       },
       {
-        en: "We first competed together as Akam at the ICCKE 2022 challenge, and became a company in 2026. The members also bring their own work in medical imaging, speaker identification, face recognition and data products — you'll find it all in the projects below.",
-        fa: "نخستین بار در چالش ICCKE 2022 با نام آکام کنار هم رقابت کردیم و در سال ۲۰۲۶ به یک شرکت تبدیل شدیم. اعضا کارهای شخصی خود را هم در تصویربرداری پزشکی، شناسایی گوینده، بازشناسی چهره و محصولات داده‌ای به تیم آورده‌اند — همه را در بخش پروژه‌ها می‌بینید."
+        en: "We first competed together as Akam at the ICCKE 2022 challenge, where we took third place, and became a company in 2026. The members also bring their own work in medical imaging, speaker identification, face recognition and data products — you'll find it all in the projects below.",
+        fa: "نخستین بار در چالش ICCKE 2022 با نام آکام کنار هم رقابت کردیم و رتبه‌ی سوم را به دست آوردیم، و در سال ۲۰۲۶ به یک شرکت تبدیل شدیم. اعضا کارهای شخصی خود را هم در تصویربرداری پزشکی، شناسایی گوینده، بازشناسی چهره و محصولات داده‌ای به تیم آورده‌اند — همه را در بخش پروژه‌ها می‌بینید."
       },
       {
         en: "How we build: train on GPUs, serve on CPUs, and never return a verdict without the reasons for it — so the system is cheap to run and a human reviewer can always see why.",
@@ -169,7 +171,7 @@ window.SITE = {
       { value: "7",    label: { en: "KYC modules",               fa: "ماژول احراز هویت" } },
       { value: "3",    label: { en: "team members",              fa: "عضو تیم" } },
       { value: "40+",  label: { en: "public Kaggle datasets",    fa: "دیتاست عمومی در کگل" } },
-      { value: "2022", label: { en: "first entry as Akam",       fa: "نخستین رقابت با نام آکام" } }
+      { value: { en: "3rd", fa: "سوم" }, label: { en: "place, ICCKE 2022 challenge", fa: "رتبه در چالش ICCKE 2022" } }
     ]
   },
 
@@ -245,8 +247,8 @@ window.SITE = {
       initials: "ZM",
       role: { en: "Backend & Machine Learning Engineer", fa: "مهندس بک‌اند و یادگیری ماشین" },
       bio: {
-        en: "Trains the models and builds the services that run them. Background in medical imaging and speaker identification; led the Akam entry at ICCKE 2022.",
-        fa: "مدل‌ها را آموزش می‌دهد و سرویس‌هایی را می‌سازد که آن‌ها را اجرا می‌کنند. پیشینه در تصویربرداری پزشکی و شناسایی گوینده؛ سرپرست تیم آکام در ICCKE 2022."
+        en: "Trains the models and builds the services that run them. Background in medical imaging and speaker identification; led the Akam team to third place at ICCKE 2022.",
+        fa: "مدل‌ها را آموزش می‌دهد و سرویس‌هایی را می‌سازد که آن‌ها را اجرا می‌کنند. پیشینه در تصویربرداری پزشکی و شناسایی گوینده؛ سرپرست تیم آکام در ICCKE 2022 که رتبه‌ی سوم را گرفت."
       },
       avatar: "assets/img/zhaleh.jpg",
       links: {
@@ -265,6 +267,7 @@ window.SITE = {
         en: "Builds the backend services behind the suite's face checks — detection, embeddings and matching behind FastAPI — and the data that trains them. Publishes much of the team's MRI, OCR and face data on Kaggle.",
         fa: "سرویس‌های بک‌اند پشت بررسی‌های چهره‌ی سامانه را می‌سازد — تشخیص چهره، استخراج بردار و تطبیق روی FastAPI — و داده‌هایی که مدل‌ها با آن آموزش می‌بینند. بخش بزرگی از داده‌های ام‌آرآی، OCR و چهره‌ی تیم را روی کگل منتشر کرده است."
       },
+      /*  No photo yet — save one as assets/img/shahla.jpg and set it here.  */
       avatar: "",
       links: {
         github:   "https://github.com/shahla2022",
@@ -426,8 +429,8 @@ window.SITE = {
     },
     {
       name: { en: "Poultry Behaviour Monitoring", fa: "پایش رفتار طیور" },
-      subtitle: { en: "ICCKE 2022 challenge — Akam's first entry",
-                  fa: "چالش ICCKE 2022 — نخستین رقابت آکام" },
+      subtitle: { en: "ICCKE 2022 challenge — third place",
+                  fa: "چالش ICCKE 2022 — رتبه‌ی سوم" },
       description: {
         en: "Detect every bird in overhead farm video, track each one across frames, and analyse the movement distribution to flag abnormal flock behaviour. A YOLOv7 detector was trained on a deliberately small labelled set, tracking used a distance-matrix association between consecutive frames, and trajectories were reduced to movement statistics. The honest finding: numbering individual birds is not reliable at that density — the signal lives in the distribution.",
         fa: "تشخیص تک‌تک پرنده‌ها در ویدئوی سالن از بالا، ردیابی هرکدام در طول فریم‌ها، و تحلیل توزیع حرکت برای علامت‌زدن رفتار غیرعادی گله. آشکارساز YOLOv7 روی مجموعه‌ای عمداً کوچک از داده‌ی برچسب‌خورده آموزش دید، ردیابی با تناظر ماتریس فاصله بین فریم‌های متوالی انجام شد، و مسیرها به آماره‌های حرکتی تبدیل شدند. یافته‌ی صادقانه: شماره‌گذاری تک‌تک پرنده‌ها در آن تراکم قابل‌اتکا نیست — سیگنال در توزیع است."
