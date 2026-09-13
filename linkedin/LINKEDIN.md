@@ -30,7 +30,7 @@ Practical AI solutions — from data to deployment.
 
 | Field | Value |
 |---|---|
-| Website | https://akamteam-ai.github.io/ (live after the first push — see README → Publishing) |
+| Website | https://zhaleh197.github.io/akam-site/ for now; https://akamteam-ai.github.io/ once the site moves to the Akam account |
 | Industry | Artificial Intelligence |
 | Organization size | 2–10 employees |
 | Organization type | Privately held |
@@ -108,7 +108,7 @@ We're a small AI company building identity verification that runs fast on ordina
 
 We first competed together at the ICCKE 2022 challenge, where we took third place. In 2026 Akam became a company.
 
-Follow the page for what we're building, and see our projects at https://akamteam-ai.github.io/.
+Follow the page for what we're building, and see our projects at https://zhaleh197.github.io/akam-site/
 
 #AI #KYC #ComputerVision #MachineLearning #IdentityVerification
 ```

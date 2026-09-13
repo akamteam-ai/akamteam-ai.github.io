@@ -145,10 +145,10 @@ window.SITE = {
       email:    "mailto:akamteam.ai@gmail.com",
       linkedin: "https://www.linkedin.com/company/akam-ai",
       github:   "https://github.com/akamteam-ai",
-      /*  This site, served by GitHub Pages from the akamteam-ai account.
-       *  Change it here and in index.html's og: tags if it moves to
-       *  akamteam-ai.ir.  */
-      website:  "https://akamteam-ai.github.io/"
+      /*  Temporary home on Zhaleh's account until the site is pushed to the
+       *  akamteam-ai account — then set this back to
+       *  https://akamteam-ai.github.io/ along with index.html's og: tags.  */
+      website:  "https://zhaleh197.github.io/akam-site/"
     },
 
     aboutTitle: { en: "A small team with a narrow focus",

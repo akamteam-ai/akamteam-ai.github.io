@@ -114,6 +114,12 @@ were reached.
 
 ## Publishing
 
+**Right now** the site is published from a second remote, `zhaleh`
+(`https://github.com/zhaleh197/akam-site.git`), at
+<https://zhaleh197.github.io/akam-site/>. The Website button and the `og:` tags
+point there. When it moves to the Akam account, follow the steps below and change
+those three URLs back to `https://akamteam-ai.github.io/`.
+
 The repository is already initialised with a first commit on `main`, and its
 remote points at `https://github.com/akamteam-ai/akamteam-ai.github.io.git`.
 Publishing takes two steps, both signed in as the `akamteam-ai` account:
