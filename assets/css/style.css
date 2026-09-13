@@ -279,6 +279,29 @@ h1, h2, h3, h4 { line-height: 1.2; letter-spacing: -0.02em; margin: 0; }
   box-shadow: var(--shadow-m);
 }
 .mark-frame img { width: 100%; height: auto; }
+
+/*  The original wordmark is a raster with its own navy ground, so the light
+ *  theme swaps in a flat dark-ink cut-out of the same lettering instead of
+ *  showing a dark plate on a light page.  */
+.wm-dark { display: none; }
+.hero-mark .mark-frame {
+  background: transparent; border-color: transparent; box-shadow: none;
+  padding: 12% 4%;
+}
+:root[data-theme="dark"] .wm-dark { display: block; }
+:root[data-theme="dark"] .wm-light { display: none; }
+:root[data-theme="dark"] .mark-frame {
+  background: var(--ink); padding: 0; box-shadow: var(--shadow-m);
+  border-color: color-mix(in srgb, var(--accent) 25%, var(--border));
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .wm-dark { display: block; }
+  :root:not([data-theme="light"]) .wm-light { display: none; }
+  :root:not([data-theme="light"]) .mark-frame {
+    background: var(--ink); padding: 0; box-shadow: var(--shadow-m);
+    border-color: color-mix(in srgb, var(--accent) 25%, var(--border));
+  }
+}
 .mark-glow {
   position: absolute; inset: -14%; z-index: 0;
   background: radial-gradient(circle at 30% 35%, color-mix(in srgb, var(--accent) 34%, transparent), transparent 60%),
