@@ -82,7 +82,8 @@ window.SITE = {
     },
 
     team: {
-      honorary: { en: "Honorary member", fa: "عضو افتخاری" }
+      honorary:   { en: "Honorary member", fa: "عضو افتخاری" },
+      panelLabel: { en: "The team", fa: "تیم ما" }
     },
 
     projects: {
@@ -149,11 +150,6 @@ window.SITE = {
        *  akamteam-ai.ir.  */
       website:  "https://akamteam-ai.github.io/"
     },
-
-    /*  Portraits of the three members side by side, one image per language.  */
-    teamImage: { en: "assets/img/team-en.jpg", fa: "assets/img/team-fa.jpg" },
-    teamImageAlt: { en: "The Akam team: Zhaleh Manbari, Shahla Gharibi and Mohammad Jafari",
-                    fa: "تیم آکام: ژاله منبری، شهلا غریبی و محمد جعفری" },
 
     aboutTitle: { en: "A small team with a narrow focus",
                   fa: "تیمی کوچک با تمرکزی مشخص" },
@@ -243,7 +239,8 @@ window.SITE = {
 
   /* ----------------------------------------------------------- members */
   /*  `id` is what projects reference in `members`. `avatar` is optional —
-   *  without it the card shows `initials`.                               */
+   *  without it the card shows `initials`. `portrait` is the larger
+   *  head-and-shoulders photo in the About section's team panel.          */
 
   members: [
     {
@@ -256,6 +253,7 @@ window.SITE = {
         fa: "مدل‌ها را آموزش می‌دهد و سرویس‌هایی را می‌سازد که آن‌ها را اجرا می‌کنند. پیشینه در تصویربرداری پزشکی و شناسایی گوینده؛ سرپرست تیم آکام در ICCKE 2022 که رتبه‌ی سوم را گرفت."
       },
       avatar: "assets/img/zhaleh.jpg",
+      portrait: "assets/img/portraits/zhaleh.jpg",
       links: {
         portfolio: "https://zhaleh197.github.io/",
         github:    "https://github.com/zhaleh197",
@@ -274,6 +272,7 @@ window.SITE = {
       },
       /*  Cropped to the face from assets/img/shahla.jpg.  */
       avatar: "assets/img/shahla-avatar.jpg",
+      portrait: "assets/img/portraits/shahla.jpg",
       links: {
         github:   "https://github.com/shahla2022",
         kaggle:   "https://www.kaggle.com/sshahla",
@@ -292,6 +291,7 @@ window.SITE = {
         fa: "با تجربه‌ی خود در توسعه‌ی نرم‌افزار از تیم آکام پشتیبانی می‌کند."
       },
       avatar: "assets/img/mohammad.jpg",
+      portrait: "assets/img/portraits/mohammad.jpg",
       links: {}
     }
   ],

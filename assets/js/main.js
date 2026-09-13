@@ -469,9 +469,17 @@
     about.textContent = "";
     S.company.about.forEach(function (p) { about.appendChild(el("p", null, t(p))); });
 
-    var teamImg = $("#teamImage");
-    teamImg.src = t(S.company.teamImage);
-    teamImg.alt = t(S.company.teamImageAlt);
+    /*  About-section team panel: members with a portrait, side by side.  */
+    var panel = $("#teamPortraits"); panel.textContent = "";
+    S.members.forEach(function (m) {
+      if (!m.portrait) return;
+      var f = el("div", "portrait" + (m.honorary ? " is-honorary" : ""));
+      var img = el("img"); img.src = m.portrait; img.alt = t(m.name); img.loading = "lazy";
+      f.appendChild(img);
+      f.appendChild(el("strong", null, t(m.name)));
+      f.appendChild(el("span", null, t(m.role)));
+      panel.appendChild(f);
+    });
 
     renderServices();
     renderTeam();
