@@ -150,6 +150,11 @@ window.SITE = {
       website:  "https://akamteam-ai.github.io/"
     },
 
+    /*  Portraits of the three members side by side, one image per language.  */
+    teamImage: { en: "assets/img/team-en.jpg", fa: "assets/img/team-fa.jpg" },
+    teamImageAlt: { en: "The Akam team: Zhaleh Manbari, Shahla Gharibi and Mohammad Jafari",
+                    fa: "تیم آکام: ژاله منبری، شهلا غریبی و محمد جعفری" },
+
     aboutTitle: { en: "A small team with a narrow focus",
                   fa: "تیمی کوچک با تمرکزی مشخص" },
     about: [

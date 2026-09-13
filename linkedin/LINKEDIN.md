@@ -99,6 +99,8 @@ Contact: akamteam.ai@gmail.com
 
 ## First post — introducing the page
 
+Attach `akam-team-post.jpg` (the three of you, 1600 × 900) as the post image.
+
 ```
 Akam is on LinkedIn. 👋
 

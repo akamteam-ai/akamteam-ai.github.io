@@ -469,6 +469,10 @@
     about.textContent = "";
     S.company.about.forEach(function (p) { about.appendChild(el("p", null, t(p))); });
 
+    var teamImg = $("#teamImage");
+    teamImg.src = t(S.company.teamImage);
+    teamImg.alt = t(S.company.teamImageAlt);
+
     renderServices();
     renderTeam();
     renderProjects();
