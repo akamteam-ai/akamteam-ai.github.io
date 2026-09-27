@@ -292,17 +292,20 @@ window.SITE = {
       },
       avatar: "assets/img/mohammad.jpg",
       portrait: "assets/img/portraits/mohammad.jpg",
-      links: {}
+      links: {
+        linkedin: "https://www.linkedin.com/in/mohammadjaf/"
+      }
     },
     {
       id: "soran",
       name: { en: "Soran Mirzaei", fa: "سوران میرزایی" },
       initials: "SM",
-      role: { en: "Honorary member", fa: "عضو افتخاری" },
+      role: { en: "Honorary member · Full-stack developer",
+              fa: "عضو افتخاری · برنامه‌نویس فول‌استک" },
       honorary: true,
       bio: {
-        en: "",
-        fa: ""
+        en: "A full-stack developer who has stood beside Akam from the beginning — with advice when we needed it and encouragement when we needed that more.",
+        fa: "برنامه‌نویس فول‌استک که از ابتدا کنار آکام بوده است؛ با مشورتش وقتی لازم داشتیم و با دلگرمی‌اش وقتی بیشتر به آن نیاز داشتیم."
       },
       avatar: "assets/img/soran.jpg",
       portrait: "assets/img/portraits/soran.jpg",
