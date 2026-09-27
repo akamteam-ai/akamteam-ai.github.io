@@ -283,12 +283,13 @@ window.SITE = {
       id: "mohammad",
       name: { en: "Mohammad Jafari", fa: "محمد جعفری" },
       initials: "MJ",
-      role: { en: "Honorary member", fa: "عضو افتخاری" },
+      role: { en: "Honorary member · Full-stack developer",
+              fa: "عضو افتخاری · برنامه‌نویس فول‌استک" },
       honorary: true,
       /*  Introduction and photo only, by the team's choice — no project list.  */
       bio: {
-        en: "Supports the Akam team with experience in software development.",
-        fa: "با تجربه‌ی خود در توسعه‌ی نرم‌افزار از تیم آکام پشتیبانی می‌کند."
+        en: "Backs the Akam team with hard-won experience and steady encouragement.",
+        fa: "با تجربه و دلگرمی‌اش پشتیبان تیم آکام است."
       },
       avatar: "assets/img/mohammad.jpg",
       portrait: "assets/img/portraits/mohammad.jpg",
@@ -304,8 +305,8 @@ window.SITE = {
               fa: "عضو افتخاری · برنامه‌نویس فول‌استک" },
       honorary: true,
       bio: {
-        en: "A full-stack developer who has stood beside Akam from the beginning — with advice when we needed it and encouragement when we needed that more.",
-        fa: "برنامه‌نویس فول‌استک که از ابتدا کنار آکام بوده است؛ با مشورتش وقتی لازم داشتیم و با دلگرمی‌اش وقتی بیشتر به آن نیاز داشتیم."
+        en: "Has stood beside Akam from the beginning — with advice when we needed it and encouragement when we needed that more.",
+        fa: "از ابتدا کنار آکام بوده است؛ با مشورتش وقتی لازم داشتیم و با دلگرمی‌اش وقتی بیشتر به آن نیاز داشتیم."
       },
       avatar: "assets/img/soran.jpg",
       portrait: "assets/img/portraits/soran.jpg",
