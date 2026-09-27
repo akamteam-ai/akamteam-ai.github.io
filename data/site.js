@@ -170,7 +170,7 @@ window.SITE = {
 
     stats: [
       { value: "7",    label: { en: "KYC modules",               fa: "ماژول احراز هویت" } },
-      { value: "3",    label: { en: "team members",              fa: "عضو تیم" } },
+      { value: "4",    label: { en: "team members",              fa: "عضو تیم" } },
       { value: "40+",  label: { en: "public Kaggle datasets",    fa: "دیتاست عمومی در کگل" } },
       { value: { en: "3rd", fa: "سوم" }, label: { en: "place, ICCKE 2022 challenge", fa: "رتبه در چالش ICCKE 2022" } }
     ]
@@ -293,6 +293,22 @@ window.SITE = {
       avatar: "assets/img/mohammad.jpg",
       portrait: "assets/img/portraits/mohammad.jpg",
       links: {}
+    },
+    {
+      id: "soran",
+      name: { en: "Soran Mirzaei", fa: "سوران میرزایی" },
+      initials: "SM",
+      role: { en: "Honorary member", fa: "عضو افتخاری" },
+      honorary: true,
+      bio: {
+        en: "",
+        fa: ""
+      },
+      avatar: "assets/img/soran.jpg",
+      portrait: "assets/img/portraits/soran.jpg",
+      links: {
+        linkedin: "https://www.linkedin.com/in/soranmirzaei/"
+      }
     }
   ],
 

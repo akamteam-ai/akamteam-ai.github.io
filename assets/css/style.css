@@ -364,8 +364,8 @@ h1, h2, h3, h4 { line-height: 1.2; letter-spacing: -0.02em; margin: 0; }
 }
 
 .team-portraits {
-  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(1rem, 3.5vw, 2.8rem); margin-top: clamp(1.8rem, 5vw, 3.4rem);
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: clamp(1rem, 3vw, 2.2rem); margin-top: clamp(1.8rem, 5vw, 3.4rem);
 }
 .portrait { text-align: center; margin: 0; }
 .portrait img {
